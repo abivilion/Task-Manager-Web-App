@@ -12,10 +12,6 @@ app.use(express.static('./public'));
 app.use(express.json());
 
 //routes
-// app.get('/hello',(req,res) => {
-// res.send('Task Manager App')
-// })
-// console.log(tasks);
 
 app.use('/api/v1/tasks', tasks) ;// at this address task.js will be called and run
  
